@@ -1,0 +1,14 @@
+# Bugs with WontFix issues
+
+p: Project = input;
+out: output top(9999999) of string weight int;
+name:=p.project_url;
+out << name weight 0;
+visit(p, visitor {
+	before ir : Issue -> {
+	if((ir.kind == IssueKind.WONTFIX)||(ir.kind == IssueKind.INVALID)||(ir.kind == IssueKind.WORKSFORME)){
+		out << name weight 1;
+	}
+	}		
+});
+

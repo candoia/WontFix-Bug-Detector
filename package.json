@@ -1,0 +1,7 @@
+{
+  "name": "WontFix Bug Detector",
+  "version": "0.0.1",
+  "author": "Nitin Mukesh Tiwari",
+  "description": "Shows number of WontFix bugs in Project.",
+  "main": "main.html"
+}
