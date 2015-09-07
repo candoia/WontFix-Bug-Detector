@@ -1,7 +1,16 @@
 {
-  "name": "WontFix Bug Detector",
-  "version": "0.0.1",
-  "author": "Nitin Mukesh Tiwari",
+  "name": "wontfix-bug-detector",
+  "productName": "WontFix Bug Detector",
+  "version": "0.1.0",
+  "author": "Nitin Mukesh Tiwari <nmtiwari@iastate.edu>",
   "description": "Shows number of WontFix bugs in Project.",
-  "main": "main.html"
+  "main": "main.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/candoia/WontFix-Bug-Detector"
+  },
+  "icon": {
+	"type": "fa",
+	"name": "pi-chart"
+  }
 }
